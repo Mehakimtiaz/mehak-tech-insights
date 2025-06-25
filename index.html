@@ -3,71 +3,94 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Case Study: Kidjo Platform Migration</title>
+  <title>Mehak Imtiaz - Frontend Developer Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-50 text-gray-800">
-  <div class="max-w-4xl mx-auto px-4 py-10">
-    <h1 class="text-3xl font-bold mb-4">🚀 Case Study: Kidjo Platform Migration & Optimization</h1>
+<body class="bg-white text-gray-800 font-sans">
+  <header class="bg-gradient-to-r from-purple-600 to-blue-500 text-white py-8">
+    <div class="max-w-6xl mx-auto px-4">
+      <h1 class="text-4xl font-bold">Mehak Imtiaz</h1>
+      <p class="text-lg mt-1">Frontend Developer | Vue.js & React.js Expert | TypeScript Enthusiast</p>
+    </div>
+  </header>
 
-    <section class="mb-8">
-      <h2 class="text-xl font-semibold mb-2">🎯 Project Overview</h2>
+  <main class="max-w-6xl mx-auto px-4 py-10">
+    <!-- About Section -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold mb-4">👋 About Me</h2>
       <p>
-        Migrated a legacy Vue 2 monolith to a modular, performance-optimized Vue 3 architecture. Improved scalability,
-        performance, and test coverage while ensuring backward compatibility.
+        Experienced frontend developer with 6+ years of expertise building scalable, performance-driven, and accessible web applications.
+        Specializing in Vue.js, React.js, TypeScript, and modern tooling. Passionate about clean UI, modular architecture, and smooth user experiences.
       </p>
     </section>
 
-    <section class="mb-8">
-      <h2 class="text-xl font-semibold mb-2">🔧 My Role</h2>
-      <ul class="list-disc list-inside">
-        <li>Frontend Developer leading modular migration</li>
-        <li>Implemented smart diffing system for Admin Panel updates</li>
-        <li>Set up CI/CD with test coverage gates and performance budgets</li>
-        <li>Collaborated with designers using Figma, created tokenized UI system</li>
-      </ul>
+    <!-- Skills Section -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold mb-4">🛠 Technical Skills</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4 text-sm">
+        <div><strong>Languages:</strong> JavaScript (ES6+), TypeScript, HTML5, CSS3</div>
+        <div><strong>Frameworks:</strong> Vue.js, Nuxt.js, React.js, Next.js</div>
+        <div><strong>State Mgmt:</strong> Vuex, Pinia, Redux, Context API</div>
+        <div><strong>Styling:</strong> Tailwind CSS, SCSS, Vuetify, Bootstrap</div>
+        <div><strong>Testing:</strong> Jest, Mocha, Cypress</div>
+        <div><strong>Tools:</strong> Git, GitHub, Vite, Webpack, Docker</div>
+      </div>
     </section>
 
-    <section class="mb-8">
-      <h2 class="text-xl font-semibold mb-2">⚙️ Technical Breakdown</h2>
-      <ul class="list-disc list-inside">
-        <li><strong>Smart Diffing System:</strong> Sent only changed fields in bulk updates, reducing payload size and DB writes by 60%</li>
-        <li><strong>Scoped Module Migration:</strong> Migrated components module-wise using Vue 3 compatibility build, reducing latency by 20%</li>
-        <li><strong>CI Gate on Coverage:</strong> Enforced 90% coverage threshold using Jest + GitHub Actions to prevent unstable merges</li>
-        <li><strong>Performance Optimizations:</strong> Applied code splitting, lazy loading, async images, deferred animations</li>
-      </ul>
+    <!-- Projects Section -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold mb-4">🚀 Projects & Case Studies</h2>
+      <div class="space-y-8">
+        <div>
+          <h3 class="text-xl font-bold">Kidjo Platform Migration</h3>
+          <p class="text-sm text-gray-600 mb-2">Vue 2 → Vue 3 migration | Nuxt | Pinia | Performance Optimization</p>
+          <ul class="list-disc list-inside text-sm">
+            <li>Scoped migration strategy with backward compatibility</li>
+            <li>Lazy loading, smart diffing, and code splitting to boost LCP by 30%</li>
+            <li>Implemented design tokens and CI gates with >90% test coverage</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-xl font-bold">Cobase Fintech App</h3>
+          <p class="text-sm text-gray-600 mb-2">React.js | Secure banking data | Lazy loading</p>
+          <ul class="list-disc list-inside text-sm">
+            <li>Optimized use of useMemo, useCallback to reduce re-renders</li>
+            <li>Improved load times via code-splitting and React.lazy</li>
+            <li>Ensured accessibility and responsive UI for dashboards</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-xl font-bold">Kidjo Admin Panel</h3>
+          <p class="text-sm text-gray-600 mb-2">Dynamic Forms | Server-side Pagination | Real-time Bulk Updates</p>
+          <ul class="list-disc list-inside text-sm">
+            <li>Integrated smart diffing system for selective updates</li>
+            <li>Reduced payload size by 60% and improved UX for partner tasks</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
-    <section class="mb-8">
-      <h2 class="text-xl font-semibold mb-2">📊 Results</h2>
-      <ul class="list-disc list-inside">
-        <li>⏱ <strong>LCP reduced from 3.5s → 2.3s</strong> after lazy loading and image optimization</li>
-        <li>📈 <strong>Scalability improved by 45%</strong> by modularizing components and optimizing reusability</li>
-        <li>✅ <strong>Post-deployment bugs reduced by 70%</strong> through CI coverage gates and test-first approach</li>
-        <li>🛡 <strong>Implemented XSS/CSRF protection</strong> using DOMPurify, HttpOnly cookies, CSRF tokens</li>
-      </ul>
+    <!-- Education Section -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold mb-4">🎓 Education</h2>
+      <p><strong>PUCIT - Punjab University College of Information Technology</strong></p>
+      <p class="text-sm">Bachelor’s in Software Engineering (2015 – 2019)</p>
     </section>
 
-    <section class="mb-8">
-      <h2 class="text-xl font-semibold mb-2">🎨 Design to Dev Workflow</h2>
-      <p>
-        Worked closely with UI/UX team using <strong>Figma Inspect</strong> and <strong>Zeplin</strong>. Exported retina-ready assets and implemented
-        a token-based design system using Tailwind and SCSS variables for themes, spacing, and typography.
-      </p>
+    <!-- Contact Section -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold mb-4">📬 Contact</h2>
+      <p>Email: <a href="mailto:mehak.imtiaz.i@gmail.com" class="text-blue-600">mehak.imtiaz.i@gmail.com</a></p>
+      <p>Phone: +971 0522710180</p>
+      <p>LinkedIn: <a href="#" class="text-blue-600">[Your LinkedIn]</a></p>
+      <p>GitHub: <a href="#" class="text-blue-600">[Your GitHub]</a></p>
     </section>
+  </main>
 
-    <section class="mb-8">
-      <h2 class="text-xl font-semibold mb-2">🧠 Key Takeaways</h2>
-      <ul class="list-disc list-inside">
-        <li>Migration doesn't have to be risky — if modular and backward-compatible</li>
-        <li>Test coverage and CI gates save hours of debugging later</li>
-        <li>Design consistency and performance go hand-in-hand through tokens and smart loading</li>
-      </ul>
-    </section>
-
-    <footer class="mt-10 text-sm text-gray-500">
-      &copy; 2025 Mehak Imtiaz. All rights reserved.
-    </footer>
-  </div>
+  <footer class="bg-gray-100 text-center text-sm text-gray-500 py-4">
+    &copy; 2025 Mehak Imtiaz. All rights reserved.
+  </footer>
 </body>
 </html>
